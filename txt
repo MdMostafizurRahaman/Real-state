@@ -2,3 +2,4 @@ npm create vite@latest client
 visit the website: https://tailwindcss.com/docs/installation/using-vite
 npm install tailwindcss @tailwindcss/vite
 npm i react-router-dom
+npm i react-icons
