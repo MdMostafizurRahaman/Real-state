@@ -1,0 +1,17 @@
+npm create vite@latest client
+visit the website: https://tailwindcss.com/docs/installation/using-vite
+npm install tailwindcss @tailwindcss/vite
+npm i react-router-dom
+npm i react-icons
+
+
+
+Backend:
+npm init -y
+npm i express
+npm i nodemon
+in package.json file add   "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
