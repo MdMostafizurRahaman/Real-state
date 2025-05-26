@@ -16,3 +16,7 @@ in package.json file add   "type": "module",
     "dev": "nodemon api/index.js",
     "start": "node api/index.js"
   },
+
+npm i bcryptjs => for using hash
+
+const hashedPassword = bcrypt.hashSync(password,10) => eikhan e await korer drkr nai, etai emni sync ace mane age hash hole then kaj krbe

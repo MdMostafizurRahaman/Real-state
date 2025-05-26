@@ -1,5 +1,4 @@
 import mongoose from 'mongoose'
-import mongoo from 'mongoose'
 
 const userSchema = new mongoose.Schema({
     username: {
