@@ -20,3 +20,14 @@ in package.json file add   "type": "module",
 npm i bcryptjs => for using hash
 
 const hashedPassword = bcrypt.hashSync(password,10) => eikhan e await korer drkr nai, etai emni sync ace mane age hash hole then kaj krbe
+
+middleWare => in catch block just use next(error). and add that function next parameter. then shows this error when occurs
+app.use((err, req, res, next) => {
+    const statusCode = err.statusCode || 500;
+    const message = err.message || 'Internal Server Error'
+    return res.status(statusCode).json({
+        success: false,
+        statusCode,
+        message
+    })
+})
